@@ -28,6 +28,7 @@ survivors is telling its reader the least useful true thing it knows.
 | `desk_sample.html` | a full weekly build, self-contained, open it in a browser. No internet, no tracking, everything inside the file |
 | `brief_sample.txt` | the one-page covering note a weekly refresh ships with |
 | `SELECTION_LOOKAHEAD.md` / `.pdf` | the self-test: protocol, era tables, the audits, what died and what survived |
+| `DECAY.md` | how fast the desk's information goes stale, measured on our own builds |
 
 The writeup names the internal analysis scripts it ran on; those are not included here. The
 protocol descriptions are complete enough to reimplement independently, and that is the
