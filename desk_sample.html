@@ -206,6 +206,10 @@ table.screen tbody tr:nth-child(even){background:var(--sunk)}
 select option{color:#191512; background:#fbf8f2}
 select optgroup{color:#191512; background:#fbf8f2}
 body{overflow-x:hidden}
+.colgroup{margin:0 0 10px}
+.colgroup h5{font-variant:small-caps; letter-spacing:0.05em; font-size:13px; margin:8px 0 3px;
+  border-bottom:1px solid var(--rule-strong); padding-bottom:2px}
+.colnote{font-size:12.5px; font-style:italic; color:var(--dim); margin:4px 0 10px; max-width:640px}
 .empty{padding:34px 0; color:var(--dim); font-size:14px; font-style:italic}
 .colophon{border-top:1px solid var(--rule); padding:14px 0 40px; font-size:12px;
           color:var(--faint); font-style:italic; text-align:center}
@@ -971,9 +975,23 @@ function toggleCols(){
 }
 function drawCols(){
   if(!SHOWN) SHOWN = defaultShown();
-  $("colPick").innerHTML = DATA.screen_cols.map(c=>
-    '<label><input type="checkbox"'+(SHOWN.includes(c)?" checked":"")
-    + ' onchange="pickCol(\''+c+'\',this.checked)">'+labelOf(c)+'</label>').join("");
+  // Grouped, with the Traded group framed for what it is. A flat checkbox wall let "Win rate"
+  // and "Spread PnL" stand naked, reading as a trading app's promises rather than as the
+  // measured record of a fixed rule; the heading carries the frame the hover notes already do.
+  const CH_GROUPS = GROUPS.concat([["Everything else",
+    DATA.screen_cols.filter(c=>!GROUPS.some(([t,f])=>f.includes(c)))]]);
+  const box = c => '<label><input type="checkbox"'+(SHOWN.includes(c)?" checked":"")
+    + ' onchange="pickCol(\''+c+'\',this.checked)">'+labelOf(c)+'</label>';
+  $("colPick").innerHTML =
+    '<div class="colnote">Columns under "the rule under test" describe what one fixed mechanical '
+    + 'rule did across 108 settings on the formation window. Measurements of the past, not '
+    + 'expectations of the future: measured honestly, no column here ranks the year ahead.</div>'
+    + CH_GROUPS.map(([t,fields])=>{
+        const inner = fields.filter(c=>DATA.screen_cols.includes(c)).map(box).join("");
+        if(!inner) return "";
+        const title = t==="Traded" ? "The rule under test" : t;
+        return '<div class="colgroup"><h5>'+title+'</h5>'+inner+'</div>';
+      }).join("");
 }
 function pickCol(c,on){
   if(!SHOWN) SHOWN = defaultShown();
