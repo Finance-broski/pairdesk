@@ -1,0 +1,53 @@
+THE WEEK'S BRIEF
+Prepared upon the close of 2026-08-26, against the prior build of 2026-08-21.
+Build us_2026-08-26_lb2500_n1889_3f61ab. Full particulars on every name are in the desk.
+
+THE LIST
+53,502 pairs accepted, against 50,407 in the prior build. 4746 entered, 1651 left, 48756 stayed:
+turnover of 3.3 percent. The list is built to move slowly; the standings below are
+what moves week to week.
+
+NEWLY BEYOND TWO SIGMA, largest first (crossed since the prior build)
+  DKS/HESM       z -3.58   half-life   41d   none
+  XLP/DKS        z -3.46   half-life   94d   unclassified
+  VRSK/CHD       z -2.81   half-life   76d   none
+  RNR/FSS        z -2.73   half-life   86d   none
+  SA/NVG         z +2.63   half-life   66d   unclassified
+  SA/NUV         z +2.62   half-life   58d   unclassified
+  SJM/VNO        z +2.51   half-life   53d   none
+  USD/DEM        z -2.50   half-life   85d   unclassified
+  VOYA/SDY       z +2.45   half-life   47d   unclassified
+  SPYV/VOYA      z +2.44   half-life   64d   unclassified
+  SJM/TBPH       z +2.44   half-life   59d   same sector
+  MCD/SCI        z -2.42   half-life   38d   none
+
+DECAY FLAGS RAISED THIS WEEK (hedge ratio drifting; a reading, not an instruction)
+  AMZN/WEC       beta now  1.636   z +0.34
+  IWM/DUK        beta now  0.862   z +1.46
+  NFLX/CPAY      beta now  0.353   z +1.76
+  NFLX/ACIW      beta now  0.423   z +1.32
+  JPM/PRGO       beta now -0.846   z +0.66
+  XLF/MNST       beta now  0.980   z -3.38
+  XLF/PRGO       beta now -1.194   z +0.28
+  BAC/ALNY       beta now  0.500   z +2.54
+
+ENTERED THE LIST, best formation Sharpe first
+  OIS/QUAD       Sharpe  0.82   half-life   79d   same sector
+  SLGN/NERV      Sharpe  0.82   half-life   29d   same sector
+  AMT/QUAD       Sharpe  0.81   half-life   49d   none
+  SAIC/UHAL      Sharpe  0.80   half-life   65d   same sector
+  SBAC/QUAD      Sharpe  0.78   half-life   49d   none
+  VIXY/PAG       Sharpe  0.78   half-life   86d   none
+  DXCM/QUAD      Sharpe  0.76   half-life   64d   same sector
+  BAH/FCN        Sharpe  0.76   half-life   71d   same industry
+  and 4738 more, in the desk
+
+LEFT THE LIST
+  A/HLIT, AAL/BTG, AAL/DPST, AAL/IRTC, AAL/XENE, AAON/MATV, AAON/RLJ, AAPL/CLM, AAPL/CRF, AAPL/DRS, AAPL/DX, AAPL/NDAQ, AAPL/PLAB, AAPL/XENE and 1637 more
+
+STANDING NOTES, unchanged by anything above
+  The acceptance rule passes 2.0 to 2.7 percent of pairs that are false by construction;
+  a candidate is a candidate, not a finding. Formation statistics do not rank the year
+  ahead; the desk's methodology carries the measurement. Spreads are hedged, not
+  market-neutral, and the prices are survivorship blind, with both costs quantified in
+  the desk.
