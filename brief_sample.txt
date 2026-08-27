@@ -31,15 +31,15 @@ DECAY FLAGS RAISED THIS WEEK (hedge ratio drifting; a reading, not an instructio
   XLF/PRGO       beta now -1.194   z +0.28
   BAC/ALNY       beta now  0.500   z +2.54
 
-ENTERED THE LIST, best formation Sharpe first
-  OIS/QUAD       Sharpe  0.82   half-life   79d   same sector
-  SLGN/NERV      Sharpe  0.82   half-life   29d   same sector
-  AMT/QUAD       Sharpe  0.81   half-life   49d   none
-  SAIC/UHAL      Sharpe  0.80   half-life   65d   same sector
-  SBAC/QUAD      Sharpe  0.78   half-life   49d   none
-  VIXY/PAG       Sharpe  0.78   half-life   86d   none
-  DXCM/QUAD      Sharpe  0.76   half-life   64d   same sector
-  BAH/FCN        Sharpe  0.76   half-life   71d   same industry
+ENTERED THE LIST, strongest acceptance first
+  SJNK/SRLN      EG t  -6.78   half-life   14d   unclassified
+  SRLN/SHYG      EG t  -6.37   half-life   17d   unclassified
+  VEU/DX         EG t  -6.33   half-life   24d   unclassified
+  AVGO/FTSL      EG t  -6.25   half-life   31d   unclassified
+  LQD/TFI        EG t  -6.03   half-life   26d   unclassified
+  AVGO/BKLN      EG t  -5.98   half-life   30d   unclassified
+  SHOP/VTEB      EG t  -5.93   half-life   37d   unclassified
+  TFI/PZA        EG t  -5.86   half-life   17d   unclassified
   and 4738 more, in the desk
 
 LEFT THE LIST
