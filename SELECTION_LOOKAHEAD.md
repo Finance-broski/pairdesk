@@ -234,7 +234,8 @@ genuine cointegration is:
 | 0.5% | 2.7% | 18.6% | +0.023 |
 
 The real screen accepts 4.2 per cent of what it tests, which lines up with the 2 per cent row, and
-the gap there would be +0.032. Measured, it is −0.021, with an era-to-era standard error of 0.013.
+the gap there would be +0.032. Measured, it is −0.021, and the six era gaps have a standard deviation
+of 0.013 around it (standard error 0.005), so the best era, +0.002, is still below +0.032.
 
 So this is not merely a failure to find something. Genuine cointegration present in even half a per
 cent of tested pairs, at a strength that clears twenty basis points of cost, would have produced a
